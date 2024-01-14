@@ -1,6 +1,9 @@
 name = input("Enter the note name: ")
 note = name[0]
 octave = int(name[1])
+
+freq = None
+
 if note == "C":
     freq = 261.63
 elif note == "D":
