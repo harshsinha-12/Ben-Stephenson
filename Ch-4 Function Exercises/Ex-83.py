@@ -1,4 +1,4 @@
-def shipping_cost(n):
+def shipping_cost(n : int) -> float:
     return 10.95 + (2.95 * (n - 1))
 
 def main():

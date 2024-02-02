@@ -1,4 +1,4 @@
-def triangle(a,b,c):
+def triangle(a : float,b : float,c : float) -> bool:
     if a+b>c and a+c>b and b+c>a:
         return True
     else:
