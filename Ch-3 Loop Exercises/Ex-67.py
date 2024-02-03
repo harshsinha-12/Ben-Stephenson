@@ -1,7 +1,7 @@
 baby = 0
-kid = 14.00
-adult = 23.00
-senior = 18.00
+kid = 14
+adult = 23
+senior = 18
 total = 0
 count = 0
 
