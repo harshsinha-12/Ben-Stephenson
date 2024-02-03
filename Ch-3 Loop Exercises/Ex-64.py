@@ -1,10 +1,10 @@
 n = 0.05
 pennies = 5
 
-t = 0
+t = 0.0
 l = float(input("Enter the price of each item: "))
 while l != 0:
-    t += l
+    t += float(l)
     l = float(input("Enter the price of each item: "))
 print(f"Total price is: {format(t, '.2f')}")
 

@@ -1,4 +1,4 @@
-pi = 3
+pi: float = 3
 
 for i in range(2, 31, 2):
     if i % 4 == 0:

@@ -11,14 +11,12 @@ print("""Base Charge: $15.00
         
         Sales Tax: 5%""")
 
-c = 0
-tc = 0
+c = 0.25*(m-50)
+tc = 0.15*(t-50)
 if m > 50:
-    c = 0.25*(m-50)
     print("Additional Minutes Charge: $", format(c, '.2f'))
 
 elif t > 50:
-    tc = 0.15*(t-50)
     print(f"Additional Text Messages Charge: ${format(tc, '.2f')}")
 
 

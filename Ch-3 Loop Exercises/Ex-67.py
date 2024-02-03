@@ -4,6 +4,7 @@ adult = 23.00
 senior = 18.00
 total = 0
 count = 0
+
 age = int(input("Enter the age: "))
 while age != 0:
     if age <= 2:

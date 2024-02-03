@@ -6,7 +6,7 @@ g = input("Enter Letter Grade: ")
 while g != '0':
     grade = 0
     if g == "A+":
-        grade = 4.00
+        grade = 4.00  # Assign a float value to the variable "grade".
     elif g == "A":
         grade = 4.00
     elif g == "A-":
