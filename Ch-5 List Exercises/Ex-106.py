@@ -1,7 +1,7 @@
 def min_max_lst():
-    lst = []
+    lst : list = []
     while True:
-        num = int(input("Enter a number (0 to stop): "))
+        num : int = int(input("Enter a number (0 to stop): "))
         if num == 0:
             break
         lst.append(num)
@@ -9,8 +9,8 @@ def min_max_lst():
     if len(lst) < 4:
         return None
 
-    min_num = min(lst)
-    max_num = max(lst)
+    min_num : int = min(lst)
+    max_num : int = max(lst)
     lst.remove(min_num)
     lst.remove(max_num)
     return lst  

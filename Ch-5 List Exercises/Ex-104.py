@@ -1,7 +1,7 @@
-def sorted_list(numbers : list)-> list:
+def sorted_list(numbers : list[int])-> list:
     numbers = []
     while True:
-        num = int(input("Enter a number (0 to stop): "))
+        num : int = int(input("Enter a number (0 to stop): "))
         if num == 0:
             break
         numbers.append(num)

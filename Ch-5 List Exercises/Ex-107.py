@@ -1,7 +1,7 @@
 def duplicates(lst : list)-> list:
     lst = []
     while True:
-        a = input("Enter the elements, enter enter to end input: ")
+        a : str = input("Enter the elements, enter enter to end input: ")
         if a == '':
             break
         lst.append(a)
